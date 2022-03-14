@@ -23,9 +23,9 @@ object HOFsCurries extends App {
   // let's go into another terminology :)
   // Don't be rush babe, you will like it.
   // nTimesBetter(funcF, n) = x => funcF(FuncF(FuncF....(x))) // how many times we apply
-  def nTimesBetter(funcF: Int => Int, n: Int): (Int => Int) = {
-    // TODO: fix me
-
-  }
+//  def nTimesBetter(funcF: Int => Int, n: Int): (Int => Int) = {
+//    // TODO: fix me
+//
+//  }
 
 }
