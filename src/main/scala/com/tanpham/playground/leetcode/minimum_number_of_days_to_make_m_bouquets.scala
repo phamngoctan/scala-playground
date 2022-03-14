@@ -27,7 +27,7 @@ object minimum_number_of_days_to_make_m_bouquets {
 
 //      println(canFormAllBouquets(bloomDay, m, k, 12))
       var left = 1
-      var right = scala.math.pow(10,9)
+      var right: Int = scala.math.pow(10,9).toInt
       while (left < right) {
         val mid:Int = (left + (right - left) / 2).toInt
         if (canFormAllBouquets(bloomDay, m, k, mid)) {
