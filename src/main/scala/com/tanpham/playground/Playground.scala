@@ -4,6 +4,18 @@ import java.time.Year
 
 object Playground extends App {
 
+  val nums:List[Int] = List(1, 2, 3)
+  val cs:List[String] = List("a", "b", "c")
+  val plusOneNums = for (
+    num <- nums;
+    c <- cs
+  ) yield {
+    println(num)
+    println(c)
+    num + 1
+  }
+  println(plusOneNums)
+
   trait P[T] {
     val name: String
   }
