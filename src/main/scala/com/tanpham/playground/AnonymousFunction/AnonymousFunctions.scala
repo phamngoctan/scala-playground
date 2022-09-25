@@ -27,7 +27,7 @@ object AnonymousFunctions extends App {
 
   val niceAdder = (x: Int, y: Int) => x + y
   val niceAdder2: (Int, Int) => Int = (x: Int, y: Int) => x + y
-  var niceAdderAppliedMoarSyntacticSugar: (Int, Int) => Int = _ + _
-  assert(niceAdderAppliedMoarSyntacticSugar(1, 2) == 3)
+//  var niceAdderAppliedMoarSyntacticSugar: (Int, Int) => Int = _ + _
+//  assert(niceAdderAppliedMoarSyntacticSugar(1, 2) == 3)
 
 }

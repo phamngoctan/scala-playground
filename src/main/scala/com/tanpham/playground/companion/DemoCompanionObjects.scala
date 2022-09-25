@@ -1,11 +1,11 @@
-package com.tanpham.playground
+package com.tanpham.playground.companion
 
 object DemoCompanionObjects extends App {
   val rectangle = Shape(10, 5)
-  print(s"area of rectange var ${rectangle.area}")
+  println(s"area of rectange var ${rectangle.area}")
 
   val circle = Shape(10)
-  print(s"area of circle var is ${circle.area}")
+  println(s"area of circle var is ${circle.area}")
 }
 
 trait Shape {

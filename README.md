@@ -3,6 +3,13 @@ Scala-playground
 
 The playground for Scala language.
 
+Within the Scala ecosystem, the Akka-HTTP library is a popular choice for implementing server-side backends for HTTP APIs. Another popular option is the Play framework, but using a full-blown web framework to just provide a thin API is an overkill in most cases.
+
+Referential transparency goal:
+- Only dependent on their input
+- Have no side effects
+
+
 Requires
 ---------------
 * Please download latest version of SBT. As of last publication of Skeleton:
